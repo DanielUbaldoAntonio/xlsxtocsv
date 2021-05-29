@@ -1,0 +1,25 @@
+{
+    "name": "danielubaldo/xlsxtocsv",
+    "description": "XLSX to CSV",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Daniel Ubaldo Antonio",
+            "email": "danielubaldovrb@gmail.com",
+            "homepage": "https://www.formacaodigital.com.br",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        }
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "~1"
+    }
+}
